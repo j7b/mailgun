@@ -1,0 +1,86 @@
+--3bb01e84-c283-416f-8c3b-130635c47d4c
+Content-Disposition: form-data; name="Message-Id"
+
+<20110215055645.25246.63817@news.mock.domain>
+--3bb01e84-c283-416f-8c3b-130635c47d4c
+Content-Disposition: form-data; name="attachment-count"
+
+1
+--3bb01e84-c283-416f-8c3b-130635c47d4c
+Content-Disposition: form-data; name="body-plain"
+
+
+--3bb01e84-c283-416f-8c3b-130635c47d4c
+Content-Disposition: form-data; name="domain"
+
+news.mock.domain
+--3bb01e84-c283-416f-8c3b-130635c47d4c
+Content-Disposition: form-data; name="event"
+
+complained
+--3bb01e84-c283-416f-8c3b-130635c47d4c
+Content-Disposition: form-data; name="message-headers"
+
+[["Content-Type", ["text/plain", {"charset": "us-ascii"}]], ["Mime-Version", "1.0"], ["Return-Path", "<bounce+ad27a4.345-alice=example.com@news.mock.domain>"], ["Received-Spf", "pass (mta1122.mail.sk1.example.com:    domain  of  bc=example+example.com=example@news.mock.domain    designates  173.193.210.33    as permitted sender)"], ["X-Originating-Ip", "[173.193.210.33]"], ["Authentication-Results", "mta1122.mail.sk1.example.com  from=news.mock.domain;    domainkeys=pass (ok); from=news.mock.domain; dkim=pass (ok)"], ["Received", "from 127.0.0.1 (EHLO mail-luna33.mailgun.org)    (173.193.210.33)    by  mta1122.mail.sk1.example.com with SMTP;    Mon, 14 Feb 2011 21:57:01 -0800"], ["Dkim-Signature", "a=rsa-sha256; v=1; c=relaxed/relaxed; d=news.mock.domain;    q=dns/txt; s=mg; t=1297749420;    h=MIME-Version: Subject: From: To: Date: Message-Id:    List-Id:    Sender: Content-Type: Content-Transfer-Encoding;    bh=gYbP9hMgpeW3ea3yNJlie/Yt+URsh5LwB24aU1Oe1Uo=;    b=Vr6ipa2P79dYKAtYtgZSiMXInPvthTzaQBs2XzJLEu7lc0s6bmHEApy3r2dVsI+MoJ+GtjWt  pkQVbwX2ZipJsdGUigT60aiTX45ll1QG5X83N+mKR4cIDmVJD8vtwjJcLfSMdDTuOK6jI41B    NSYVlT1YWPh3sh3Tdl0ZxolDlys="], ["Domainkey-Signature", "a=rsa-sha1; c=nofws; d=news.mock.domain; s=mg;    h=MIME-Version: Subject: From: To:    Date:   Message-Id: List-Id: Sender:    Content-Type:   Content-Transfer-Encoding;    b=QhZX2rhdVYccjPsUTMw1WASPEgsDg0KSBGHHwItsZd0xopzvgK2iQAuSJiJXo7yomFgj5R    /Cz/iTv9I4Jdt6JPaEc5wf5X2JWqBCO+F1FTyYcVWzMG+WhGCdFn6sw82ma8VVY7UUU0TGsS    tJe+1JkAQ1ILlm4rdXmS9jlG4H/ZE="], ["Received", "from    web3    (184-106-70-82.static.cloud-ips.com [184.106.70.82])    by  mxa.mailgun.org    with ESMTPSA id EB508F0127B for <alice@example.com>;    Tue, 15 Feb 2011 05:56:45 +0000 (UTC)"], ["Subject", "Test spam webhook"], ["From", "Bob <bob@news.mock.domain>"], ["To", "Alice <alice@example.com>"], ["Date", "Tue, 15 Feb 2011 05:56:45 -0000"], ["Message-Id", "<20110215055645.25246.63817@news.mock.domain>"], ["Sender", "SRS0=1U0y=VM=example.com=example@news.mock.domain"], ["Content-Length", "629"], ["Content-Transfer-Encoding", ["7bit", {}]]]
+--3bb01e84-c283-416f-8c3b-130635c47d4c
+Content-Disposition: form-data; name="recipient"
+
+alice@example.com
+--3bb01e84-c283-416f-8c3b-130635c47d4c
+Content-Disposition: form-data; name="signature"
+
+35484cc18467d07d09a576a9aac69d498d3af90a84598d248f072ff81fd009e0
+--3bb01e84-c283-416f-8c3b-130635c47d4c
+Content-Disposition: form-data; name="timestamp"
+
+1527096700
+--3bb01e84-c283-416f-8c3b-130635c47d4c
+Content-Disposition: form-data; name="token"
+
+cde4215a5ee9e4b5cc6d169745821034ef5d382f4d05714e26
+--3bb01e84-c283-416f-8c3b-130635c47d4c
+Content-Disposition: form-data; name="attachment-1"; filename="message.mime"
+Content-Type: application/octet-stream
+Content-Length: 2002
+
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Return-Path: <bounce+ad27a4.345-alice=example.com@news.mock.domain>
+Received-Spf: pass (mta1122.mail.sk1.example.com:
+    domain  of  bc=example+example.com=example@news.mock.domain    designates  173.193.210.33
+    as permitted sender)
+X-Originating-Ip: [173.193.210.33]
+Authentication-Results: mta1122.mail.sk1.example.com  from=news.mock.domain;
+    domainkeys=pass (ok); from=news.mock.domain; dkim=pass (ok)
+Received: from 127.0.0.1 (EHLO mail-luna33.mailgun.org)
+    (173.193.210.33)    by  mta1122.mail.sk1.example.com with SMTP;
+    Mon, 14 Feb 2011 21:57:01 -0800
+Dkim-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=news.mock.domain;
+    q=dns/txt; s=mg; t=1297749420;
+    h=MIME-Version: Subject: From: To: Date: Message-Id:
+    List-Id:    Sender: Content-Type: Content-Transfer-Encoding;
+    bh=gYbP9hMgpeW3ea3yNJlie/Yt+URsh5LwB24aU1Oe1Uo=;
+    b=Vr6ipa2P79dYKAtYtgZSiMXInPvthTzaQBs2XzJLEu7lc0s6bmHEApy3r2dVsI+MoJ+GtjWt  pkQVbwX2ZipJsdGUigT60aiTX45ll1QG5X83N+mKR4cIDmVJD8vtwjJcLfSMdDTuOK6jI41B    NSYVlT1YWPh3sh3Tdl0ZxolDlys=
+Domainkey-Signature: a=rsa-sha1; c=nofws; d=news.mock.domain; s=mg;
+    h=MIME-Version: Subject: From: To:
+    Date:   Message-Id: List-Id: Sender:
+    Content-Type:   Content-Transfer-Encoding;
+    b=QhZX2rhdVYccjPsUTMw1WASPEgsDg0KSBGHHwItsZd0xopzvgK2iQAuSJiJXo7yomFgj5R    /Cz/iTv9I4Jdt6JPaEc5wf5X2JWqBCO+F1FTyYcVWzMG+WhGCdFn6sw82ma8VVY7UUU0TGsS    tJe+1JkAQ1ILlm4rdXmS9jlG4H/ZE=
+Received: from
+    web3    (184-106-70-82.static.cloud-ips.com [184.106.70.82])    by  mxa.mailgun.org
+    with ESMTPSA id EB508F0127B for <alice@example.com>;
+    Tue, 15 Feb 2011 05:56:45 +0000 (UTC)
+Subject: Test spam webhook
+From: Bob <bob@news.mock.domain>
+To: Alice <alice@example.com>
+Date: Tue, 15 Feb 2011 05:56:45 -0000
+Message-Id: <20110215055645.25246.63817@news.mock.domain>
+Sender: SRS0=1U0y=VM=example.com=example@news.mock.domain
+Content-Length: 629
+Content-Transfer-Encoding: 7bit
+
+Hi Alice,
+
+This is spam! Click the button!
+
+--3bb01e84-c283-416f-8c3b-130635c47d4c--

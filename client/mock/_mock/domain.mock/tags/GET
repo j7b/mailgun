@@ -1,0 +1,23 @@
+{
+  "items": [
+      {
+        "tag": "red",
+        "description": "red signup button"
+      },
+      {
+        "tag": "green",
+        "description": "examples with json that don't parse"
+      }
+  ],
+  "paging": {
+    "next":
+        "https://url_to_next_page",
+    "previous":
+        "https://url_to_previous_page",
+    "first":
+        "https://url_to_first_page",
+    "last":
+        "https://url_to_last_page"
+  }
+}
+

@@ -1,0 +1,18 @@
+{
+  "items": [
+      {
+          "vars": {
+              "age": 26
+          },
+          "name": "Foo Bar",
+          "subscribed": false,
+          "address": "bar@example.com"
+      }
+  ],
+  "paging": {
+    "first": "https://url_to_first_page",
+    "last": "https://url_to_last_page",
+    "next": "http://url_to_next_page",
+    "previous": "http://url_to_previous_page"
+  }
+}

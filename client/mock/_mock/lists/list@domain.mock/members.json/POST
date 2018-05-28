@@ -1,0 +1,12 @@
+{
+  "message": "Mailing list has been updated",
+  "list": {
+    "members_count": 7,
+    "description": "My updated test mailing list",
+    "created_at": "Wed, 06 Mar 2013 11:39:51 GMT",
+    "access_level": "readonly",
+    "address": "dev@samples.mailgun.org",
+    "name": "Test List Updated"
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "member": {
+    "address": "bar@example.com",
+    "name": "",
+    "subscribed": true,
+    "vars": {
+      "id": 1
+    }
+  }
+}

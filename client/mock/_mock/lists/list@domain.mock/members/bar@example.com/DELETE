@@ -1,0 +1,6 @@
+{
+  "member": {
+      "address": "bar@example.com"
+  },
+  "message": "Mailing list member has been deleted"
+}

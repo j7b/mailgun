@@ -1,0 +1,12 @@
+{
+  "member": {
+      "vars": {
+          "age": 26
+      },
+      "name": "Foo Bar",
+      "subscribed": false,
+      "address": "bar@example.com"
+  },
+  "message": "Mailing list member has been updated"
+}
+

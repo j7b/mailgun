@@ -1,0 +1,15 @@
+{
+"tracking": {
+  "click": {
+    "active": false
+  },
+  "open": {
+    "active": true
+  },
+  "unsubscribe": {
+    "active": true,
+    "html_footer": "\n<br>\n<p><a href=\"%unsubscribe_url%\">unsubscribe</a></p>\n",
+    "text_footer": "\n\nTo unsubscribe click: <%unsubscribe_url%>\n\n"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "member": {
+      "vars": {
+          "age": 26
+      },
+      "name": "Bob Bar",
+      "subscribed": true,
+      "address": "bar@example.com"
+  },
+  "message": "Mailing list member has been created"
+}

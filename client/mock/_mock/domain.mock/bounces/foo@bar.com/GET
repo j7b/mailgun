@@ -1,0 +1,6 @@
+{
+  "address": "foo@bar.com",
+  "code": "550",
+  "error": "No such mailbox",
+  "created_at": "Fri, 21 Oct 2011 11:02:55 GMT"
+}

@@ -1,0 +1,10 @@
+event	Event name (“delivered”).
+recipient	Intended recipient.
+domain	Domain that sent the original message.
+message-headers	String list of all MIME headers dumped to a JSON string (order of headers preserved).
+Message-Id	String id of the original message delivered to the recipient.
+“custom variables”	Your own custom JSON object included in the header of the original message (see Attaching Data to Messages).
+timestamp	Number of seconds passed since January 1, 1970 (see securing webhooks).
+token	Randomly generated string with length 50 (see securing webhooks).
+signature	String with hexadecimal digits generate by HMAC algorithm (see securing webhooks).
+

@@ -1,0 +1,15 @@
+{
+  "total_count": 1,
+  "items": [
+    {
+      "created_at": "Wed, 10 Jul 2013 19:26:52 GMT",
+      "smtp_login": "postmaster@samples.mailgun.org",
+      "name": "samples.mailgun.org",
+      "smtp_password": "4rtqo4p6rrx9",
+      "wildcard": true,
+      "spam_action": "disabled",
+      "state": "active"
+    }
+  ]
+}
+

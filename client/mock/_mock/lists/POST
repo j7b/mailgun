@@ -1,0 +1,10 @@
+{
+  "message": "Mailing list has been created",
+  "list": {
+      "created_at": "Tue, 06 Mar 2012 05:44:45 GMT",
+      "address": "dev@samples.mailgun.org",
+      "members_count": 0,
+      "description": "Mailgun developers list",
+      "name": ""
+  }
+}

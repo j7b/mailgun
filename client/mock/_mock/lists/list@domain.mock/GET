@@ -1,0 +1,10 @@
+{
+  "list": {
+    "access_level": "readonly",
+    "address": "customers@domain.mock",
+    "created_at": "Thu, 24 May 2018 23:54:27 -0000",
+    "description": "",
+    "members_count": 3,
+    "name": ""
+  }
+}

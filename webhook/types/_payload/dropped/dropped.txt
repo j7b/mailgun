@@ -1,0 +1,102 @@
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="Message-Id"
+
+<20130503192659.13651.20287@news.mock.domain>
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="X-Mailgun-Sid"
+
+WyIwNzI5MCIsICJpZG91YnR0aGlzb25lZXhpc3RzQGdtYWlsLmNvbSIsICI2Il0=
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="attachment-count"
+
+1
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="body-plain"
+
+
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="code"
+
+605
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="description"
+
+Not delivering to previously bounced address
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="domain"
+
+news.mock.domain
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="event"
+
+dropped
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="message-headers"
+
+[["Received", "by luna.mailgun.net with SMTP mgrt 8755546751405; Fri, 03 May 2013 19:26:59 +0000"], ["Content-Type", ["multipart/alternative", {"boundary": "23041bcdfae54aafb801a8da0283af85"}]], ["Mime-Version", "1.0"], ["Subject", "Test drop webhook"], ["From", "Bob <bob@news.mock.domain>"], ["To", "Alice <alice@example.com>"], ["Message-Id", "<20130503192659.13651.20287@news.mock.domain>"], ["List-Unsubscribe", "<mailto:u+na6tmy3ege4tgnldmyytqojqmfsdembyme3tmy3cha4wcndbgaydqyrgoi6wszdpovrhi5dinfzw63tfmv4gs43uomstimdhnvqws3bomnxw2jtuhusteqjgmq6tm@news.mock.domain>"], ["X-Mailgun-Sid", "WyIwNzI5MCIsICJpZG91YnR0aGlzb25lZXhpc3RzQGdtYWlsLmNvbSIsICI2Il0="], ["X-Mailgun-Variables", "{\"my_var_1\": \"Mailgun Variable #1\", \"my-var-2\": \"awesome\"}"], ["Date", "Fri, 03 May 2013 19:26:59 +0000"], ["Sender", "bob@news.mock.domain"]]
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="my-var-2"
+
+awesome
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="my_var_1"
+
+Mailgun Variable #1
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="reason"
+
+hardfail
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="recipient"
+
+alice@example.com
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="signature"
+
+7eeaaa89863c5aa28415a8dee04eebb7e0d7224f0f0146c56e519134b3979c7d
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="timestamp"
+
+1527096675
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="token"
+
+24d5f037753c6e7d6b6acd22765067c80e1a5ce6048463522e
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b
+Content-Disposition: form-data; name="attachment-1"; filename="message.mime"
+Content-Type: application/octet-stream
+Content-Length: 1234
+
+Received: by luna.mailgun.net with SMTP mgrt 8755546751405; Fri, 03 May 2013
+ 19:26:59 +0000
+Content-Type: multipart/alternative; boundary="23041bcdfae54aafb801a8da0283af85"
+Mime-Version: 1.0
+Subject: Test drop webhook
+From: Bob <bob@news.mock.domain>
+To: Alice <alice@example.com>
+Message-Id: <20130503192659.13651.20287@news.mock.domain>
+List-Unsubscribe: <mailto:u+na6tmy3ege4tgnldmyytqojqmfsdembyme3tmy3cha4wcndbgaydqyrgoi6wszdpovrhi5dinfzw63tfmv4gs43uomstimdhnvqws3bomnxw2jtuhusteqjgmq6tm@news.mock.domain>
+X-Mailgun-Sid: WyIwNzI5MCIsICJpZG91YnR0aGlzb25lZXhpc3RzQGdtYWlsLmNvbSIsICI2Il0=
+X-Mailgun-Variables: {"my_var_1": "Mailgun Variable #1", "my-var-2": "awesome"}
+Date: Fri, 03 May 2013 19:26:59 +0000
+Sender: bob@news.mock.domain
+
+--23041bcdfae54aafb801a8da0283af85
+Mime-Version: 1.0
+Content-Type: text/plain; charset="ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi Alice, I sent an email to this address but it was bounced.
+
+--23041bcdfae54aafb801a8da0283af85
+Mime-Version: 1.0
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: 7bit
+
+<html>
+                            <body>Hi Alice, I sent an email to this address but it was bounced.
+                            <br>
+</body></html>
+--23041bcdfae54aafb801a8da0283af85--
+
+--b3aeafd8-7480-4df7-8d46-26d6b61fd55b--

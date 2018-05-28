@@ -1,0 +1,18 @@
+{
+  "items":
+    [
+      {
+        "address": "alice@example.com",
+        "code": "550",
+        "error": "No such mailbox",
+        "created_at": "Fri, 21 Oct 2011 11:02:55 GMT"
+      }
+    ],
+  "paging":
+    {
+      "first": "<first page URL>",
+      "next": "<next page URL>",
+      "previous": "<previous page URL>",
+      "last": "<last page URL>"
+    }
+}

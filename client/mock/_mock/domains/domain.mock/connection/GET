@@ -1,0 +1,6 @@
+{
+  "connection": {
+    "require_tls": true,
+    "skip_verification": true
+  }
+}
